@@ -203,7 +203,6 @@ data = dict(
     samples_per_gpu=32,     # Batch size of a single GPU
     workers_per_gpu=2,      # Worker to pre-fetch data for each single GPU
     train=dict(  # Train dataset config
-    train=dict(            # train data config
         type=dataset_type,                  # dataset name
         data_prefix='data/imagenet/train',  # Dataset root, when ann_file does not exist, the category information is automatically obtained from the root folder
         pipeline=train_pipeline),           # train data pipeline
